@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل دخول</title>
+    <link rel="stylesheet" href="../resources/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+    <link rel="script" href="../resources/js/script.js">
+    <script src="https://kit.fontawesome.com/6c35af944a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <div class="form-box">
+        <img src="../public/photo_2023-02-28_19-19-51.jpg" alt="logo">
+        <h1 id="title">تسجيل دخول</h1>
+        <form id="loginForm">
+            <div class="input-group">
+                <div class="input-field">
+                    <i class="fa-solid fa-id-card"></i>
+                    <input type="text" id="studentId" name="studentId" placeholder="رقم القيد">
+                    <div class="error"></div>
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="password" name="password" placeholder="كلمة المرور">
+                    <div class="error"></div>
+                </div>
+                <p>نسيت كلمة المرور <a href="#">اضغط هنا!</a></p>
+            </div>
+            <div class="btn-field">
+                <button type="button" id="signupBtn"><a href="../index.html">انشاء</a></button>
+                <button type="submit" id="signinBtn" class="colored-btn">تسجيل دخول</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="../resources/js/login.js"></script>
+
+</body>
+</html>
